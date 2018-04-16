@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E1D7DB5207C67990007C0BB /* txt.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D7DB4207C67990007C0BB /* txt.icns */; };
 		0EE92E40206A380C005F465B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE92E3F206A380C005F465B /* AppDelegate.swift */; };
-		0EE92E42206A380C005F465B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE92E41206A380C005F465B /* ViewController.swift */; };
 		0EE92E44206A380C005F465B /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE92E43206A380C005F465B /* Document.swift */; };
 		0EE92E46206A380C005F465B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE92E45206A380C005F465B /* Assets.xcassets */; };
 		0EE92E49206A380C005F465B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE92E47206A380C005F465B /* Main.storyboard */; };
+		0EE92E52206A3861005F465B /* NSRMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE92E51206A3861005F465B /* NSRMainViewController.swift */; };
+		0EE92E54206A514E005F465B /* NSREmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE92E53206A514E005F465B /* NSREmployee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E1D7DB4207C67990007C0BB /* txt.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = txt.icns; sourceTree = "<group>"; };
 		0EE92E3C206A380C005F465B /* NSRRaiseMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSRRaiseMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE92E3F206A380C005F465B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0EE92E41206A380C005F465B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0EE92E43206A380C005F465B /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		0EE92E45206A380C005F465B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EE92E48206A380C005F465B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EE92E4A206A380C005F465B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EE92E4B206A380C005F465B /* NSRRaiseMan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSRRaiseMan.entitlements; sourceTree = "<group>"; };
+		0EE92E51206A3861005F465B /* NSRMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSRMainViewController.swift; sourceTree = "<group>"; };
+		0EE92E53206A514E005F465B /* NSREmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSREmployee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			isa = PBXGroup;
 			children = (
 				0EE92E3F206A380C005F465B /* AppDelegate.swift */,
-				0EE92E41206A380C005F465B /* ViewController.swift */,
 				0EE92E43206A380C005F465B /* Document.swift */,
+				0EE92E53206A514E005F465B /* NSREmployee.swift */,
+				0EE92E51206A3861005F465B /* NSRMainViewController.swift */,
 				0EE92E45206A380C005F465B /* Assets.xcassets */,
 				0EE92E47206A380C005F465B /* Main.storyboard */,
+				0E1D7DB4207C67990007C0BB /* txt.icns */,
 				0EE92E4A206A380C005F465B /* Info.plist */,
 				0EE92E4B206A380C005F465B /* NSRRaiseMan.entitlements */,
 			);
@@ -92,6 +98,7 @@
 		0EE92E34206A380C005F465B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = NSR;
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Nasir Ahmed Momin";
@@ -127,6 +134,7 @@
 			files = (
 				0EE92E46206A380C005F465B /* Assets.xcassets in Resources */,
 				0EE92E49206A380C005F465B /* Main.storyboard in Resources */,
+				0E1D7DB5207C67990007C0BB /* txt.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EE92E42206A380C005F465B /* ViewController.swift in Sources */,
 				0EE92E40206A380C005F465B /* AppDelegate.swift in Sources */,
+				0EE92E52206A3861005F465B /* NSRMainViewController.swift in Sources */,
 				0EE92E44206A380C005F465B /* Document.swift in Sources */,
+				0EE92E54206A514E005F465B /* NSREmployee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
